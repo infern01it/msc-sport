@@ -15,7 +15,7 @@ import dataApp from './data/dataApp.json';
 import dataDistrict from './data/dataDistrict.json';
 import dataType from './data/dataType.json';
 
-import registerServiceWorker from './registerServiceWorker';
+//import registerServiceWorker from './registerServiceWorker';
 
 class App extends Component {
   constructor() {
@@ -254,4 +254,4 @@ class App extends Component {
 }
 
 render.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+//registerServiceWorker();
