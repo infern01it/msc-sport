@@ -92,7 +92,9 @@ class App extends Component {
     }
   }
 
-  handleFilterSearch = () => {
+  handleFilterSearch = e => {
+    e.preventDefault();
+    this.setState({ infoBlockOpen: false });
     const district = this.state.district.select !== dataDistrict[0].name ? this.state.district.select : false;
     const type = this.state.type.select !== dataType[0].name ? this.state.type.select : false;
     const adress = this.state.adress;

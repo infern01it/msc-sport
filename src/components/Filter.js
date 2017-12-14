@@ -17,7 +17,7 @@ const Filter = (
 ) => (
     <section className="filter">
         <div className="container filter_container">
-            <div className="row filter_row">
+            <form className="row filter_row" onSubmit={handleFilterSearch}>
                 <div className="col-sm-1">
                     <button
                         type="button"
@@ -62,7 +62,7 @@ const Filter = (
                         onClick={handleFilterSearch}
                     >Найти</button>
                 </div>
-            </div>
+            </form>
         </div>
     </section>
 );

@@ -104,7 +104,9 @@ class YaMap extends Component {
                     yaMap.geoObjects.remove(searchObjects);
                     yaMap.geoObjects.add(allObjects);
                 }
-                yaMap.setBounds(yaMap.geoObjects.getBounds());
+                if( displayedData.length !== 1 ) {
+                    yaMap.setBounds(yaMap.geoObjects.getBounds());
+                }
             });
         }
     }
