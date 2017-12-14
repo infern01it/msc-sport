@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4px" height="7px" viewBox="0 0 4 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>86AF51B1-7185-451B-B3CC-F0B1053EEEA4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="10" height="588"></rect>
+        <filter x="-15.0%" y="-0.3%" width="130.0%" height="100.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.607892215   0 0 0 0 0.607803345   0 0 0 0 0.607922554  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="iPad-result-one_object-v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-414.000000, -470.000000)">
+        <g id="Group-3" transform="translate(411.000000, 180.000000)">
+            <g id="Rectangle-Copy-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M5,295.640449 L4.98820195,295.652247 L2,292.664045 L2.66404488,292 L5,294.335955 L7.33595512,292 L8,292.664045 L5.01179805,295.652247 L5,295.640449 Z" id="Combined-Shape-Copy" fill="#9B9B9B" transform="translate(5.000000, 293.826123) rotate(90.000000) translate(-5.000000, -293.826123) "></path>
+        </g>
+    </g>
+</svg>
