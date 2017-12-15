@@ -66,7 +66,7 @@ class YaMap extends Component {
                 allObjects.add(placemark);
             });
             yaMap.geoObjects.add(allObjects);
-
+            yaMap.setBounds(yaMap.geoObjects.getBounds());
         });
     }
 
@@ -106,6 +106,8 @@ class YaMap extends Component {
                 }
                 if( displayedData.length !== 1 ) {
                     yaMap.setBounds(yaMap.geoObjects.getBounds());
+                } else {
+                    yaMap.setCenter(yaMap.geoObjects.getBounds()[0], 15);
                 }
             });
         }
@@ -123,7 +125,7 @@ class YaMap extends Component {
                 return active ? icoType4Active : icoType4;
             case 'площадка для керлинга крытая':
                 return active ? icoType5Active : icoType5;
-            case 'трасса для снегоходов, квадроциклов, ездовых упряжек и прочее':
+            case 'трасса для снегоходов и квадрациклов':
                 return active ? icoType6Active : icoType6;
             case 'трасса лыжная':
                 return active ? icoType7Active : icoType7;

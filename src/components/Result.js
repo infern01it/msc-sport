@@ -20,7 +20,7 @@ const iconType = type => {
             return icoType4;
         case 'площадка для керлинга крытая':
             return icoType5;
-        case 'трасса для снегоходов, квадроциклов, ездовых упряжек и прочее':
+        case 'трасса для снегоходов и квадрациклов':
             return icoType6;
         case 'трасса лыжная':
             return icoType7;
